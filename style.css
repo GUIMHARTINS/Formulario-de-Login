@@ -1,0 +1,30 @@
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+
+
+body{
+    background-color: #080808;
+}
+
+label{
+    color:white;
+}
+
+.image{
+    margin-bottom: 15px;
+    margin-left: -15px;
+}
+
+button{
+    width: 165px;
+    margin-top: 5px;
+    border-radius: 1px;
+    border-color: darkgrey;
+}

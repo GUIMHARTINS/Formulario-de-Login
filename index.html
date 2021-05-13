@@ -9,29 +9,34 @@
     </head>
     
     <body>
-        <form method="post">
+        <form>
         
             
-            <div id="container">
-                <div id="image">
+            <div class="container">
+                <div class="image">
                     <img src="2x/anonymous.png" alt="imagem" width="200"heigth="200">
                 </div>
                 <table>
-                    <tr> 
-                        <td>
+                    <tr class="slot"> 
+                        <!--<td>
                             <label for="email">Email:</label>
-                        </td>
+                        </td>-->
                         <td>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" placeholder="Login">
                         </td>
                     </tr>
                         
+                    <tr class="slot">
+                        <!--<td>
+                            <label for="password">Password:</label>
+                        </td>-->
+                        <td>
+                            <input type="password" id="password" placeholder="Password">
+                        </td>
+                    </tr>
                     <tr>
                         <td>
-                            <label for="password">Password:</label>
-                        </td>
-                        <td>
-                            <input type="password" id="password">
+                            <button type="submit">Login</button>
                         </td>
                     </tr>
             </table>
